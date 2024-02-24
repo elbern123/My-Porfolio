@@ -1,0 +1,248 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Personal porfolio</title>
+
+    <!--box icon-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/b356ad9dc8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+     <!--custom css-->
+    <link rel="stylesheet" href="style.css">
+    <script src=" https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+   
+<body>
+    <!--header design-->
+
+    <header class="header">
+        <a href="#" class="logo"> Portfolio</a>   
+        <i class='bx bx-menu' id="menu-icon"></i>
+        
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <!--home section design-->
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, its Me 👋👋</h3>
+            <h1>Bern Berdera </h1>
+            <h3>I am a <span class="typing"></span></h3>
+            <p></p>
+
+            <!-- old code -->
+            <!-- <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-tiktok' ></i></a>
+            </div> -->
+            <div class="main">
+                <!-- Facebook Icon -->
+                <div class="icon fb">
+                    <a href="https://www.facebook.com/profile.php?id=100008100074577" target="_blank">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <span>Facebook</span>
+                    </a>                                      
+                </div>
+        
+                <!-- Twitter Icon -->
+                <div class="icon twt">
+                    <a href="https://twitter.com/" target="_blank">
+                        <i class="fa-brands fa-twitter"></i>
+                        <span>Twitter</span>
+                    </a>                                     
+                </div>
+        
+                <!-- Linkedin Icon -->
+                <div class="icon lnk">
+                    <a href="https://www.linkedin.com/in/elbern-berdera-a155a02b1/" target="_blank">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <span>Linkedin</span>
+                    </a>                          
+                </div>
+        
+                <!-- GitHub Icon -->
+                <div class="icon git">
+                    <a href="https://github.com/elbern123" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                        <span>GitHub</span>
+                    </a>                    
+                </div>
+        
+                <!-- YouTube Icon -->
+                <div class="icon yt">
+                    <a href="https://www.youtube.com/channel/UCDdmlk3O9vMjOiMzLkbquVg" target="_blank">
+                        <i class="fa-brands fa-youtube"></i>
+                        <span>YouTube</span>
+                    </a>                      
+                </div>
+            </div>
+            <!-- <a href="#" class="btn">Download CV</a>          // button but in the old code  -->
+        </div>
+
+        <div class="home-img">
+            <img src="image/bern7.png" alt="">
+        </div>
+    </section>
+
+    <!--about section design-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="image/bern7.png" alt="">
+        </div>
+        
+        <div class="about-content">
+            <h2 class=" heading">About <span>ME</span></h2>
+            <h3><span class="auto-typing"></span></h3>
+            <p>I am IT professional graduated from saint joseph institute of technology</p>
+            <a href="#" class="btn">Read more</a>
+        </div>
+    </section>
+
+    <!--service section design-->
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Developer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil soluta, fuga vero praesentium hic mollitia consequatur quae blanditiis similique vel ad porro, ut placeat earum
+                     quisquam fugit, neque vitae necessitatibus!</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            
+            <div class="services-box">
+                <i class='bx bx-palette'></i>
+                <h3>Graphic designer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil soluta, fuga vero praesentium hic mollitia consequatur quae blanditiis similique vel ad porro, ut placeat earum
+                     quisquam fugit, neque vitae necessitatibus!</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>Digital Marketing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil soluta, fuga vero praesentium hic mollitia consequatur quae blanditiis similique vel ad porro, ut placeat earum
+                     quisquam fugit, neque vitae necessitatibus!</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!--porfolio section-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="image/project2.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web design</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur provident culpa dolores minima earum, repellat qui, aliquid ipsa debitis sunt commodi perferendis odit modi maxime 
+                        dolorum beatae nisi ea distinctio.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="image/project1.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Graphics design</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur provident culpa dolores minima earum, repellat qui, aliquid ipsa debitis sunt commodi perferendis odit modi maxime 
+                        dolorum beatae nisi ea distinctio.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="image/project3.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>business chart</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur provident culpa dolores minima earum, repellat qui, aliquid ipsa debitis sunt commodi perferendis odit modi maxime 
+                        dolorum beatae nisi ea distinctio.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="image/project4.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web design</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur provident culpa dolores minima earum, repellat qui, aliquid ipsa debitis sunt commodi perferendis odit modi maxime 
+                        dolorum beatae nisi ea distinctio.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="image/project5.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web design</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur provident culpa dolores minima earum, repellat qui, aliquid ipsa debitis sunt commodi perferendis odit modi maxime 
+                        dolorum beatae nisi ea distinctio.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="image/project6.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web design</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur provident culpa dolores minima earum, repellat qui, aliquid ipsa debitis sunt commodi perferendis odit modi maxime 
+                        dolorum beatae nisi ea distinctio.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact" id="contact"> 
+        <h2 class="heading"> Contact <span>Me!</span></h2>
+
+        <div>
+            <form id="form">         
+                <div class="input-box">
+                    <input type="text" id="fname" placeholder="First Name" required="">
+                    <input type="text" id="lname" placeholder="Last Name" required="">
+                </div>
+                <div class="input-box">
+                    <input type="text" id="email" placeholder="Email Address" required="">
+                    <input type="text" id="number" placeholder="Phone Number">
+                </div>
+                <textarea  id="message" cols="30" rows="10" placeholder=" Your Message"></textarea>
+                <button type="submit" class="btn">send message</button>          
+            </form>
+        </div>
+    </section>
+   
+    <footer class="footer">
+        <div class="footer-text">
+            <p> All right reserved!.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="script.js "></script>
+
+</body>
+
+</html>
